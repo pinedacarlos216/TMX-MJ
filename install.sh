@@ -2,8 +2,8 @@ directory_path="$PREFIX/TMX-MJ"
 
 if [ -d "$directory_path" ]; then
     echo "#-------------TMX-MJ---------------" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-    echo "alias learn='bash \$PREFIX/TMX-MJ/TMX-MJTMX-MJ'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-    echo "alias learn='bash \$PREFIX/TMX-MJ/TMX-MJTMX-MJ'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "alias learn='bash \$PREFIX/TMX-MJ/TMX-MJ'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "alias learn='bash \$PREFIX/TMX-MJ/TMX-MJ'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
     
     # This is bugging if i type ls wrong
     #echo "alias l='bash \$PREFIX/termux-helper/termuxhelperTMX-MJ'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
