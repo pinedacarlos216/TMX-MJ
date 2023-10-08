@@ -5,6 +5,13 @@
 # Date: August 14, 2023
 # /bin/bash
 
+apt install -y
+apt update -y
+pkg install wget -y
+pkg install python -y
+pkg install python2 -y
+pkg install python3 -y
+
 
 banner() {
 type_animation "████████╗███╗░░░███╗██╗░░██╗░░░░░░███╗░░░███╗░░░░░██╗"
